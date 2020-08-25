@@ -1,4 +1,4 @@
-package io.github.pielarz.admin;
+package io.github.pielarz.adminApp;
 
 import io.github.pielarz.dao.ExerciseDao;
 import io.github.pielarz.model.Exercise;
