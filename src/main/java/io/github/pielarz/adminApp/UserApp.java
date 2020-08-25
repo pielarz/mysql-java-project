@@ -1,4 +1,4 @@
-package io.github.pielarz.admin;
+package io.github.pielarz.adminApp;
 
 import io.github.pielarz.dao.GroupDao;
 import io.github.pielarz.dao.UserDao;
