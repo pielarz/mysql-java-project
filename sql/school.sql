@@ -1,5 +1,7 @@
 CREATE DATABASE school CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
+USE school;
+
 CREATE TABLE users_groups
 (
     id   INT AUTO_INCREMENT,
