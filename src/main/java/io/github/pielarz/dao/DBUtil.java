@@ -25,6 +25,7 @@ public class DBUtil {
     private static final String DB_USER = "admin";
     private static final String DB_PASSWORD = "12345678";
 
+    //This method will be used in Dao classes
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(DB_URL + DB_NAME + DB_PARAMS, DB_USER, DB_PASSWORD);
     }
