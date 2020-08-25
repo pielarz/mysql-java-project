@@ -1,6 +1,7 @@
 package io.github.pielarz.dao;
 
 import io.github.pielarz.model.Group;
+import io.github.pielarz.util.DBUtil;
 
 import java.sql.*;
 import java.util.Arrays;
