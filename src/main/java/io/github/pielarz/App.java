@@ -1,9 +1,0 @@
-package io.github.pielarz;
-
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
-}

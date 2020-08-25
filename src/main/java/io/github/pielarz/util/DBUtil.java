@@ -1,4 +1,4 @@
-package io.github.pielarz.dao;
+package io.github.pielarz.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,17 +11,18 @@ import java.sql.SQLException;
  *
  * DB_NAME holds database name
  *
- * DB_PARAMS holds additional character encoding and ssl
+ * DB_PARAMS ssl, character encoding, timezone etc.
  *
  * DB_USER holds username/login to database
  *
  * DB_PASSWORD holds password to database
  */
 
+//jdbc:mysql://localhost:3306/db_name?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
 public class DBUtil {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/";
     private static final String DB_NAME = "school";
-    private static final String DB_PARAMS = "?useSSL=false&characterEncoding=utf8";
+    private static final String DB_PARAMS = "?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
     private static final String DB_USER = "admin";
     private static final String DB_PASSWORD = "12345678";
 
