@@ -7,6 +7,7 @@ import java.sql.*;
 import java.util.Arrays;
 
 public class GroupDao {
+
     private static final String CREATE_GROUP_QUERY = "INSERT INTO users_groups(name) VALUES (?)";
     private static final String READ_GROUP_QUERY = "SELECT * FROM users_groups where id = ?";
     private static final String UPDATE_GROUP_QUERY = "UPDATE users_groups SET name = ? where id = ?";
