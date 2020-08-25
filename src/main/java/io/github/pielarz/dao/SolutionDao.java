@@ -1,6 +1,7 @@
 package io.github.pielarz.dao;
 
 import io.github.pielarz.model.Solution;
+import io.github.pielarz.util.DBUtil;
 
 import java.sql.*;
 import java.time.LocalDateTime;
