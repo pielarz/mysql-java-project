@@ -1,4 +1,4 @@
-package io.github.pielarz;
+package io.github.pielarz.userApp;
 
 import io.github.pielarz.dao.SolutionDao;
 import io.github.pielarz.dao.UserDao;
@@ -8,13 +8,13 @@ import io.github.pielarz.model.User;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class App
+public class UserApp
 {
     private static Scanner scan = new Scanner(System.in);
     public static void main( String[] args )
     {
         if (args.length < 1) {
-            System.out.println("Usage: Main [id]");
+            System.out.println("Usage: UserApp [id]");
             System.out.println(" id - id użytkownika");
             return;
         }
